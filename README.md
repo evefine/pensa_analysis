@@ -20,7 +20,7 @@ This will contain a workflow for doing PENSA analysis on simulations
 
 - set up [1-preprocess.py](http://1-preprocess.py) (in the scripts folder)
     - Modify the root directories for each set of simulations, the paths to the pdb, psf, and trajectory files, the selection strings, and the number of replicates
-    - then from your analysis directory, `python ~/pensa_scripts/sub_1-preprocess.py`
+    - then from your analysis directory, `bash ~/pensa_scripts/sub_1-preprocess.sh`
         - make sure that you activate the pensa environemnt `conda activate pensa` , which you presumably set up from https://pensa.readthedocs.io/en/latest/installation.html
 - this will make a traj folder with the xtc files and gro files
     
